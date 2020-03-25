@@ -61,13 +61,13 @@ console.log(message);
  
 
  function abTest(a, b) {
-  // Only change code below this line
+
 if (a < 0 || b > 0) {
     return undefined;
   }
 
 
-  // Only change code above this line
+  
 
   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
@@ -92,7 +92,7 @@ console.log(abTest(-1,5));
 function switchOfStuff(val) {
     var answer = "";
   
-    // Only change code below this line
+    
   
     switch (val) {
       case"a":
@@ -115,7 +115,7 @@ function switchOfStuff(val) {
   console.log(switchOfStuff(b));
   function sequentialSizes(val) {
     var answer = "";
-    // Only change code below this line
+    
   switch(val){
     case 1:
     case 2:
@@ -135,7 +135,7 @@ function switchOfStuff(val) {
   }
   
   
-    // Only change code above this line
+    
     return answer;
   }
   
@@ -192,7 +192,6 @@ var testObj = {
   19: "Unitas"
 };
 
-// Only change code below this line
 
 var playerNumber=12;       
 var player = testObj[playerNumber];    
@@ -213,7 +212,7 @@ delete testObj.playerNumbers;
 function phoneticLookup(val) {
   var result = "";
 
-  // Only change code below this line
+  
    //phoneticLookup  was  Variable repleced by lookup
    var lookup={
      "alpha": "Adams",
@@ -225,7 +224,7 @@ function phoneticLookup(val) {
   };
    result = lookup[val];
 
-  // Only change code above this line
+  
   return result;
 }
 
@@ -239,13 +238,13 @@ var myObj = {
 };
 
 function checkObj(checkProp) {
-  // Only change code below this line
+  
  if(myObj.hasOwnProperty(checkProp)==true){
   return  myObj[checkProp];
  }else{
    return "Not found"
  }
-  // Only change code above this line
+ 
 }
 
 console.log(checkObj("house"));
@@ -312,7 +311,7 @@ var myPlants = [
   }
 ];
 
-// Only change code below this line
+
 
 var secondTree = myPlants[1].list[1];
  console.log(myPlants[1].list[1]);
@@ -345,7 +344,7 @@ var secondTree = myPlants[1].list[1];
   }
 };
 
-// Only change code below this line
+
 function updateRecords(id, prop, value) {
   if(value === "") delete collection[id][prop];
   else if(prop === "tracks") {
@@ -392,13 +391,13 @@ for (var i = 9; i > 0; i -= 2) {
   //Nesting For Loops
   function multiplyAll(arr) {
     var product = 1;
-    // Only change code below this line
+    
    for (var i = 0; i < arr.length; i++) {
       for (var j = 0; j < arr[i].length; j++) {
         product = product * arr[i][j];
       }
     }
-    // Only change code above this line
+    
     return product;
   }
   
@@ -410,7 +409,7 @@ for (var i = 9; i > 0; i -= 2) {
  var myArray = [];
  var i = 10;
  
- // Only change code below this line
+ 
   do{
    myArray.push(i);
    i++;
